@@ -17,7 +17,6 @@ class Gallery extends CI_Controller
             'category' => $this->db->get('category')->result_array(),
         );
 
-
         $this->load->view('template/header', $data);
         $this->load->view('gallery/gallery', $data);
         $this->load->view('template/footer');
@@ -46,7 +45,7 @@ class Gallery extends CI_Controller
             array(
                 'field' => 'name',
                 'label' => 'Name',
-                'rules' => 'required|trim|min_length[4]'
+                'rules' => 'required|trim'
             ),
             array(
                 'field' => 'category',

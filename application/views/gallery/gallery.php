@@ -1,7 +1,9 @@
 <div id="gallery" class="container">
-    <?= $this->session->flashdata('message'); ?>
     <div class="row justify-content-center">
-        <div class="col-3 d-flex justify-content-center">
+        <div class="col-12">
+            <?= $this->session->flashdata('message'); ?>
+        </div>
+        <div class="col-12  d-flex justify-content-center">
             <button type="button" id="primary" class="btn btn-primary m-1">Primary</button>
         </div>
     </div>

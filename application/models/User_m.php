@@ -7,7 +7,7 @@ class User_m extends CI_Model
     public $id;
     public $name;
     public $password;
-    public $images = "default.jpg";
+    public $image = "default.jpg";
 
     public function rules()
     {

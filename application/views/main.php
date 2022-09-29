@@ -31,7 +31,7 @@
                                         <?php echo $user->password ?>
                                     </td>
                                     <td>
-                                        <img src="<?php echo base_url('assets/upload/image/' . $user->images) ?>" width="64" />
+                                        <img src="<?php echo base_url('assets/upload/image/' . $user->image) ?>" width="64" />
                                     </td>
                                     <td width="250">
                                         <a href="<?= base_url('main/edit/' . $user->id) ?>" class="btn btn-sm btn-primary"><i class="fa-regular fa-pen-to-square"></i> Edit</a>
